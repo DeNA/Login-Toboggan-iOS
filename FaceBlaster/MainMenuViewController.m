@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
 	[self updateUIComponents];
+    [MBSocialService showCommunityButton:kMBGravityTopLeft withTheme:@"Dark"];
 }
 
 - (void)updateUIComponents

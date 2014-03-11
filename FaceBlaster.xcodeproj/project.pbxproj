@@ -46,10 +46,10 @@
 		9498E452183C140D00BA5211 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9498E451183C140D00BA5211 /* SystemConfiguration.framework */; };
 		9498E454183C141300BA5211 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9498E453183C141300BA5211 /* Twitter.framework */; };
 		94DA46C71845363100A036F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9498E3A71835834F00BA5211 /* Foundation.framework */; };
+		B1252CA618CA512200A35AC0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1252CA518CA512200A35AC0 /* FacebookSDK.framework */; };
 		D378EE0618BD3B0800203BE0 /* MobageNDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D378EE0318BD3B0800203BE0 /* MobageNDK.framework */; };
 		D378EE0718BD3B0800203BE0 /* NDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D378EE0418BD3B0800203BE0 /* NDKResources.bundle */; };
 		D378EE0818BD3B0800203BE0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D378EE0518BD3B0800203BE0 /* Settings.bundle */; };
-		D37DC43118639AB9007375FB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944BDD6A183D6C4D00E3587E /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +103,7 @@
 		9498E453183C141300BA5211 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		94DA46C61845363100A036F1 /* liboauthconsumer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liboauthconsumer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DA472F1845577000A036F1 /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		B1252CA518CA512200A35AC0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "facebook-ios-sdk/FacebookSDK.framework"; sourceTree = "<group>"; };
 		D378EE0318BD3B0800203BE0 /* MobageNDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobageNDK.framework; sourceTree = "<group>"; };
 		D378EE0418BD3B0800203BE0 /* NDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NDKResources.bundle; sourceTree = "<group>"; };
 		D378EE0518BD3B0800203BE0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -113,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37DC43118639AB9007375FB /* FacebookSDK.framework in Frameworks */,
+				B1252CA618CA512200A35AC0 /* FacebookSDK.framework in Frameworks */,
 				9498E3AC1835834F00BA5211 /* UIKit.framework in Frameworks */,
 				9498E454183C141300BA5211 /* Twitter.framework in Frameworks */,
 				D378EE0618BD3B0800203BE0 /* MobageNDK.framework in Frameworks */,
@@ -165,6 +166,7 @@
 		9498E3A61835834F00BA5211 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1252CA518CA512200A35AC0 /* FacebookSDK.framework */,
 				944BDD6A183D6C4D00E3587E /* FacebookSDK.framework */,
 				9498E453183C141300BA5211 /* Twitter.framework */,
 				9498E451183C140D00BA5211 /* SystemConfiguration.framework */,
@@ -494,6 +496,7 @@
 					"$(inherited)",
 					"./**",
 					"/Users/kevin.cox/src/login-toboggan-ios/facebook-ios-sdk/build",
+					"/Users/eric.lannan/Documents/DeNA/LoginToboggan/login-toboggan-ios-master/facebook-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBlaster/FaceBlaster-Prefix.pch";
@@ -523,6 +526,7 @@
 					"$(inherited)",
 					"./**",
 					"/Users/kevin.cox/src/login-toboggan-ios/facebook-ios-sdk/build",
+					"/Users/eric.lannan/Documents/DeNA/LoginToboggan/login-toboggan-ios-master/facebook-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBlaster/FaceBlaster-Prefix.pch";
